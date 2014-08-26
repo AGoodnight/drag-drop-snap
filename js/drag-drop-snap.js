@@ -3,8 +3,9 @@
 	DragDropSnap = function(container,drags,drops,solution,draggablesArray,orientation){
 
 		function relPosition(t,d){
-			// Calculate the snapping coordinates
-			// -----------------------------------
+			
+			// returns a number that expresses the passed t's spacial relation to the d
+			// --------------------------------------------------------------------------
 			var c = parseInt(t.vars.i)+1;  
 			var d = parseInt(d[1])+1;
 
