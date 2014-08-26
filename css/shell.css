@@ -1,0 +1,49 @@
+#myButton{
+	position:relative;
+}
+
+.row{
+	padding:20px;
+}
+
+.top-banner{
+	border-bottom:solid 1px black;
+}
+
+.bottom-controls{
+	border-top:1px solid black;
+	height:50px;
+}
+
+.left-menu{
+}
+
+	.left-menu ul{
+		padding-left:0;		
+	}
+
+	.left-menu li{
+		list-style:none;
+		font-size:14px;
+		font-weight:bold;
+		padding:4px;
+	}
+
+	.left-menu li a{
+		position:relative;
+		color:blue;
+		left:0;
+
+		-webkit-transition: color 1s, left .4s;
+		transiton: color 1s, left .4s;
+	}
+
+	.left-menu li a:hover{
+		color:red;
+		left:10px;
+	}
+
+.right-stage{
+	height:600px;
+	border-left:1px solid black;
+}

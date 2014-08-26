@@ -1,0 +1,77 @@
+// Colors
+$orange:#e24b16;
+$burntOrange:#B8431A;
+$solarOrange:#E08728;
+$red:red;
+$yellow:#ffbf25;
+$clay:#eeeeee;
+$silt:#999999;
+$granite:#333333;
+$charcoal:#222222;
+
+// Other
+$blockHeight:100px;
+$blockWidth:100px;
+
+// Fonts
+$avant: 'Lobster', cursive;
+
+// Breakpoints
+$boot-xs:"(max-width:480px)";
+$boot-s:"(min-width:481px) and (max-width:767px)";
+$boot-md:"(min-width:768px) and (max-width:991px)";
+$boot-lg:"(min-width:992px) and (max-width:1200px)";
+$boot-xlg:"(min-width:1200px)";
+
+$boot-wide: "(min-width:992px)";
+$boot-medium: "(max-width:991px)";
+$boot-thin: "(max-width:768px)";
+
+// Animations
+
+
+// Global Declarations
+.block{
+	background-color:$orange;
+	width:$blockWidth;
+	height:$blockHeight;
+	float:left;
+	padding:20px 20px 20px 16px;
+	margin:40px;
+	color:$clay;
+	text-align:center;
+	cursor:pointer;
+
+	font:{
+		family:$avant;
+		size:40px;
+		weight:bold;
+	};
+
+	&:hover{ background-color:$solarOrange; }
+}
+
+.block-placeholder{
+	@extend .block;
+	background:none;
+	color:$silt;
+	border:dashed 2px $silt;
+	cursor:default;
+	&:hover{ background-color:$clay; }
+}
+
+#drag-land{
+	display:block;
+	height:$blockHeight*3.5;
+	overflow:hidden;
+	border:dashed 1px #999999;
+}
+
+.drags{
+	position:absolute;
+}
+
+.drops{
+	@extend .drags;
+	margin-top:$blockHeight*1.2;
+}

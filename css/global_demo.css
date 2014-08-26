@@ -1,0 +1,64 @@
+@media (min-width:900px) {
+  body {
+    background: url('http://www.thisiscolossal.com/wp-content/uploads/2014/02/desert15.jpg') fixed;
+    color: #c8c8c8; } }
+@media (min-width:410px) and (max-width:900px) {
+  body {
+    background: url('http://awkwardbotany.files.wordpress.com/2014/01/sensitive-plant.jpg') fixed;
+    color: #c8c8c8; } }
+@media (max-width:410px) {
+  body {
+    background: url('http://wallpaper-download.net/wallpapers/beautiful-wallpapers-colorful-bubbles-background-wallpaper-36920.jpg') fixed;
+    color: #c8c8c8; } }
+
+p {
+  font: 11px arial, sans-serif; }
+
+h1 {
+  color: #c8c8c8;
+  font: bold 20px arial, sans-serif;
+  padding-left: 0px;
+  cursor: pointer;
+  -webkit-transition: color 0.2s, padding-left 0.2s;
+  -moz-transtion: color 0.2s, padding-left 0.2s;
+  -ms-transition: color 0.2s, padding-left 0.2s;
+  -o-transition: color 0.2s, padding-left 0.2s;
+  transition: color 0.2s, padding-left 0.2s; }
+
+h1:hover {
+  padding-left: 10px;
+  color: #c86400; }
+
+@media (min-width:900px) {
+  section {
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden; }
+  .dinos {
+    float: left;
+    width: 250px;
+    padding: 10px;
+    margin: 10px;
+    background: black; } }
+
+@media (min-width:410px) and (max-width:900px) {
+  section {
+    width: 500px;
+    margin: 0 auto; }
+  .dinos {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background: black; } }
+
+@media (max-width:410px) {
+  section {
+    width: 200px;
+    margin: 0 auto; }
+  .dinos {
+    float: left;
+    width: 200px;
+    padding: 10px;
+    margin: 10px;
+    background: black; } }

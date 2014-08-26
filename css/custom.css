@@ -1,0 +1,11 @@
+.blackSquare{
+	width:200px;
+	height:200px;
+	background:black;
+}
+
+.redSquare{
+	width:200px;
+	height:200px;
+	background:red;
+}

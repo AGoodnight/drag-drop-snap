@@ -1,0 +1,35 @@
+.block, .block-placeholder {
+  background-color: #e24b16;
+  width: 100px;
+  height: 100px;
+  float: left;
+  padding: 20px 20px 20px 16px;
+  margin: 40px;
+  color: #eeeeee;
+  text-align: center;
+  cursor: pointer;
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+  font-weight: bold; }
+  .block:hover, .block-placeholder:hover {
+    background-color: #E08728; }
+
+.block-placeholder {
+  background: none;
+  color: #999999;
+  border: dashed 2px #999999;
+  cursor: default; }
+  .block-placeholder:hover {
+    background-color: #eeeeee; }
+
+#drag-land {
+  display: block;
+  height: 350px;
+  overflow: hidden;
+  border: dashed 1px #999999; }
+
+.drags, .drops {
+  position: absolute; }
+
+.drops {
+  margin-top: 120px; }
